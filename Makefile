@@ -1,3 +1,6 @@
+# Build config
+-include tools/make/config.mk
+
 OPENOCD           ?= openocd
 OPENOCD_INTERFACE ?= interface/stlink-v2.cfg
 REV               ?= B
